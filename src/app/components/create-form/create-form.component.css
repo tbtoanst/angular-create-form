@@ -1,0 +1,38 @@
+.container{
+  width: 30%;
+  min-width: 25rem;
+  padding: 2rem;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+.title{
+  font: normal 600 32px/30px 'Roboto';
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: rgb(83, 83, 83);
+}
+
+.button-group{
+  margin-top: 2rem;
+  height: 3rem;
+}
+
+.btn{
+  padding: 0.875rem 1rem;
+  font: normal 500 19px/16px 'Roboto';
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
+  float: right;
+  margin-left: 1rem;
+}
+
+.primary{
+  background-color: rgb(7, 107, 201);
+  color: #fff;
+}
+
